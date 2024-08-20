@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <div class="left">Govind's Portfolio</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Govind Chaubey</span>
+                <div>And I am Passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="WhatsApp Image 2024-06-29 at 19.15.18_f70705eb.jpg" alt="Govind Chaubey">
+            </div>
+        </section>
+
+        <hr>
+        <section id="about" class="secondSection">
+            <h1>About Me</h1>
+            <ul>
+                <li>🎓 Pursuing a Bachelor of Engineering (B.E) in Computer Science & Engineering from the Institute Of Engineering And Technology (IET).</li>
+                <li>🎮 Active member of the college Gaming and Coding Clubs.</li>
+                <li>🏆 Organized and participated in gaming tournaments, coding projects, and hackathons.</li>
+                <li>🛠 Conducted tech workshops, enhancing leadership, teamwork, and problem-solving skills.</li>
+                <li>💻 Passionate about web development, problem-solving, and continuous learning.</li>
+            </ul>
+        </section>
+
+        <hr>
+        <section id="skills" class="secondSection">
+            <h1>Skills</h1>
+            <div class="skills-list">
+                <div class="skill">C++</div>
+                <div class="skill">Java</div>
+                <div class="skill">HTML</div>
+                <div class="skill">CSS</div>
+                <div class="skill">JavaScript</div>
+                <div class="skill">React.js</div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="projects" class="secondSection">
+            <h1>Projects</h1>
+            <div class="projects">
+                <div class="project">
+                    <strong>NETFLIX CLONE USING HTML AND CSS</strong><br>
+                    <a href="https://github.com/2602Govind/NETFLIX" target="_blank">View Project</a><br>
+                    <img src="netflix clone.png" alt="Netflix Clone Screenshot">
+                </div>
+                <div class="project">
+                    <strong>HOSPITAL MANAGEMENT SYSTEM</strong><br>
+                    <a href="https://github.com/2602Govind/HOSPITAL-MANGEMENT-SYSTEM.git" target="_blank">View Project</a><br>
+                    <img src="hospital management sysytem.png" alt="Hospital Management System Screenshot">
+                </div>
+                <div class="project">
+                    <strong>BASIC CALCULATOR</strong><br>
+                    <a href="https://github.com/2602Govind/Basic-Calculator.git"  target="_blank">View Project</a><br>
+                    <img src="basic calculator.png" alt="Basic Calculator Screenshot">
+                </div>
+            </div>
+        </section>
+
+        <hr>
+        <section id="contact" class="secondSection">
+            <h1>Resume</h1>
+            <p><a href="Govind Chaubey_ RESUME.pdf" target="_blank">Download Resume</a></p>
+        </section>
+
+        <hr>
+        <section class="secondSection">
+            <h1>GitHub</h1>
+            <p><a href="https://github.com/2602Govind" target="_blank" class="social-media"><img src="github-logo.png" alt="GitHub Logo"></a> My GitHub Profile</p>
+        </section>
+
+        <hr>
+        <section id="contact-info" class="contact-info">
+            <h1>Contact Information</h1>
+            <p>Email: govindchaubey638@gmail.com</p>
+            <p>Phone: +91 6387305456</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/govindchaubey" target="_blank" class="social-media"><img src="linkedin-logo.png" alt="LinkedIn Logo"></a> Govind Chaubey</p>
+            <p>Instagram: <a href="https://www.instagram.com/chaubeygovind" target="_blank" class="social-media"><img src="instagram-logo.png" alt="Instagram Logo"></a> chaubeygovind</p>
+            <p>Facebook: <a href="https://www.facebook.com/govindchaubey" target="_blank" class="social-media"><img src="facebook-logo.png" alt="Facebook Logo"></a> Govind Chaubey</p>
+        </section>
+
+        <hr>
+        <section id="contact-me" class="secondSection">
+            <h1>Contact Me</h1>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mobile">Mobile No:</label>
+                <input type="tel" id="mobile" name="mobile" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Govind's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Problem solver', 'Web designer', 'Video Editor'],
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true
+        });
+    </script>
+</body>
+</html>
