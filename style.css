@@ -240,5 +240,46 @@
         .contact-form button:hover {
             background-color: #6f6fbd;
         }
+
+   .google-form-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #f1c40f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.google-form-button:hover {
+    background-color: #d4ac0d;
+}
+.custom-line {
+    border: 0;
+    background: #9c97f1; /* Same as the previous line color */
+    height: 1.3px;
+    margin: 60px 80px;
+    max-width: 80vw;
+}
+
+.google-form-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: linear-gradient(45deg, #9c97f1, #6a64c3); /* Similar to other buttons */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.google-form-button:hover {
+    background-color: #6f6fbd; /* Similar hover effect */
+}
+
         
+
     
