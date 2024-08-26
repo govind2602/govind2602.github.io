@@ -108,22 +108,32 @@
             <form class="contact-form">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-
+        
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-
+        
                 <label for="mobile">Mobile No:</label>
                 <input type="tel" id="mobile" name="mobile" required>
-
+        
                 <label for="subject">Subject:</label>
                 <input type="text" id="subject" name="subject" required>
-
+        
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
-
+        
                 <button type="submit">Submit</button>
             </form>
+        
+            <hr class="custom-line">
+        
+            <button id="google-form-button" class="google-form-button">Contact Me via Google Form</button>
         </section>
+        
+        <script>
+            document.getElementById("google-form-button").onclick = function() {
+                window.open("https://docs.google.com/forms/d/e/1FAIpQLScqM76Ku0x9oDka_oebRGQVFCCcP1mTR_uvVmlSeSuMGHVy2w/viewform?embedded=true", "_blank");
+            };
+        </script>
     </main>
 
     <footer>
